@@ -3,8 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    height: 100vh;    
 }
 
 .pricing {
@@ -14,27 +13,27 @@ body {
 
 .card {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     background-color: green;
     color: whitesmoke;
-    border-radius: 10px;
-    word-spacing: 9999rem;
+    border-radius: 20px;
+    /* word-spacing: 9999rem; */
 }
 
 .card:hover {
     box-shadow: 2px 2px 10px rgba( 0, 0, 0, 0.8);
 }
 
-.card:nth-child(1)::before {
+.card:nth-child(1):before {
     content: "$99 ";
+    
 }
 
-.card:nth-child(2)::before {
+.card:nth-child(2):before {
     content: "$199 ";
 }
 
-.card:nth-child(3)::before {
+.card:nth-child(3):before {
     content: "$299 ";
-   
 }
